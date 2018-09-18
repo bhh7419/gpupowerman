@@ -1,0 +1,5 @@
+You need put nvidia-smi.exe from NVIDIA drivers to script folder. 
+CFG params: 
+MaxTemp - try to keep this temperature (in C)
+SlowBoost - start small adjustement steps when this temp reached (really works in both directions - delta between Maxtemp and Slowboost used)
+LoadTreshold - set minimal power when GPU load below this
